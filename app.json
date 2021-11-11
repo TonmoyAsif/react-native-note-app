@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "note-app",
+    "name": "Note App",
     "slug": "note-app",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -32,10 +32,11 @@
       [
         "expo-image-picker",
         {
-          "photosPermission": "The app need photo access to add them in your notes."
+          "photosPermission": "This app needs photo permission to add photos to your notes."
         }
       ]
     ],
-    "description": ""
+    "description": "",
+    "githubUrl": "https://github.com/tonmoy-asif/react-native-note-app"
   }
 }

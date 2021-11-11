@@ -1,16 +1,14 @@
 import React from "react";
 import { StyleSheet, View, ActivityIndicator, TouchableOpacity } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
-import Text from "../components/text/text";
 import PageHeader from "../components/page-header";
 import { colors, spacing } from "../theme";
 import Input from "../components/input";
 import NoteImage from "../components/note-image";
 import NoteColor from "../components/note-color";
-import Button from "../components/button";
 import { firebase } from "../config";
 import LogService from "../services/LogService";
-import { MaterialCommunityIcons } from '@expo/vector-icons'; 
+import { MaterialCommunityIcons } from '@expo/vector-icons';
 
 const COLOR_OPTIONS = [
   { name: "red", color: colors.red },
